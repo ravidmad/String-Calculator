@@ -2,7 +2,7 @@ package calc;
 
 public class StringCalulator {
 	private float result;
-    private String customDelimiter;
+    	private String customDelimiter;
 
     private static final String DEFAULT_DELIMITER = ",";
     private static final String NEWLINE = "\n";

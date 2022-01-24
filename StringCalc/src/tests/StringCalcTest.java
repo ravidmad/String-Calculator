@@ -59,7 +59,6 @@ class StringCalcTest {
         assertEquals("Negative not allowed: -1", given("-1,2"));
         assertEquals("Negative not allowed: -4,-5", given("2,-4,-5"));
     }
-
     private String given(String number) {
         StringCalulator stringCalculator = new StringCalulator();
         return stringCalculator.sum(number);
